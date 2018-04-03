@@ -8,10 +8,11 @@
     <artifactId>ingresso</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <developers>
+    <developers> 
+    <developer>
     <name>Mônica de Fátima Pereira</name>
     <email>monicafp@gmail.com</email>
-    
+    </developer>
     </developers>
 
 
