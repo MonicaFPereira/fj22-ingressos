@@ -21,7 +21,7 @@ public class SessaoController {
 	public ModelAndView form (@RequestParam("salaId") Integer saladaId){
 		ModelAndView modelAndView = new ModelAndView("sessao/sessao");
 		modelAndView.addObject("sala", salaDao.findOne(saladaId));
-		modelAndView.addObject("filmes", salaDao.findAll());
+		modelAndView.addObject("filmes", filmeDao.findAll());
 		
 		return modelAndView;
 		
