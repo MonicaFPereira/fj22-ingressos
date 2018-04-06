@@ -1,12 +1,14 @@
 package br.com.caelum.ingresso.model;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.Duration;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.time.Duration;
+
 
 /**
  * Created by nando on 03/03/17.
